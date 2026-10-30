@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>@azkaprortfo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Parisienne&family=Quicksand:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ BACKGROUND ============ -->
+
+  <div class="bokeh bokeh--blue"></div>
+  <div class="bokeh bokeh--pink"></div>
+  <div class="bokeh bokeh--lav"></div>
+
+
+  <!-- ============ HERO ============ -->
+
+  <section class="hero" id="hero">
+
+    <div class="hero__eyebrow">
+      something to keep
+    </div>
+
+    <h1 class="hero__title">
+      <span class="script">minji</span>
+    </h1>
+
+    <p class="hero__subtitle">
+      ini website buat porto.
+    </p>
+
+    <div class="triad" aria-hidden="true">
+      <span class="dot dot--blue"></span>
+      <span class="dot dot--pink"></span>
+      <span class="dot dot--lav"></span>
+    </div>
+
+    <button
+      class="scroll-cue"
+      id="scrollCue"
+      aria-label="scroll down"
+    >
+      <span>enter what we built</span>
+
+      <svg
+        width="14"
+        height="20"
+        viewBox="0 0 14 20"
+        fill="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M7 1v17M1 12l6 6 6-6"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+
+  </section>
+
+
+  <!-- ============ INTRO NOTE ============ -->
+
+  <section class="intro">
+
+    <p class="intro__text">
+    dear minji,<br><br>
+
+    i didn't really know how to put everything i wanted to say
+    into one message, so i ended up making this instead.
+    i just wanted to put a few things here that i've been wanting
+    you to know.<br><br>
+      
+    </p>
+
+  </section>
+
+
+  <div class="triad triad--divider" aria-hidden="true">
+    <span class="dot dot--blue"></span>
+    <span class="dot dot--pink"></span>
+    <span class="dot dot--lav"></span>
+  </div>
+
+
+  <!-- ============ PHOTOCARD ============ -->
+
+  <section class="section" id="photocard">
+
+    <p class="eyebrow">
+      something i made for you
+    </p>
+
+    <h2 class="section__title">
+      a little piece of us
+    </h2>
+
+    <p class="section__lead">
+      turn it over. there's something from me on the other side.
+    </p>
+
+
+    <div
+      class="card3d"
+      id="photocard3d"
+      tabindex="0"
+      role="button"
+      aria-label="flip photocard"
+    >
+
+      <div class="card3d__inner">
+
+        <!-- FRONT -->
+
+        <div class="card3d__face card3d__front">
+
+          <img
+            src="assets/pinkflowers.png"
+            alt="a memory of us"
+            onerror="this.style.display='none'; this.parentElement.classList.add('img-fallback')"
+          >
+
+          <span class="card3d__hint">
+            minji <3
+          </span>
+
+        </div>
+
+
+        <!-- BACK -->
+
+        <div class="card3d__face card3d__back">
+
+          <p class="card3d__note">
+            thank you for being yourself.
+          </p>
+
+          <span class="card3d__sign">
+            — azka
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <div class="triad triad--divider" aria-hidden="true">
+    <span class="dot dot--blue"></span>
+    <span class="dot dot--pink"></span>
+    <span class="dot dot--lav"></span>
+  </div>
+
+
+  <!-- ============ MEMORIES ============ -->
+
+  <section class="section" id="memories">
+
+    <p class="eyebrow">
+      pieces i still keep
+    </p>
+
+    <h2 class="section__title">
+      memories
+    </h2>
+
+    <p class="section__lead">
+      not everything needs a perfect ending to still be worth keeping.
+    </p>
+
+
+    <div class="gallery">
+
+      <figure class="gallery__item">
+
+        <img
+          src="assets/daydrewing.png"
+          alt="memory one"
+          onerror="this.parentElement.classList.add('img-fallback')"
+        >
+
+        <figcaption>
+          minji <3
+        </figcaption>
+        
+      </figure>
+
+
+      <figure class="gallery__item">
+
+        <img
+          src="assets/turuu.png"
+          alt="memory two"
+          onerror="this.parentElement.classList.add('img-fallback')"
+        >
+
+        <figcaption>
+          minji <3
+        </figcaption>
+
+      </figure>
+
+
+      <figure class="gallery__item">
+
+        <img
+          src="assets/dobeldet.png"
+          alt="memory three"
+          onerror="this.parentElement.classList.add('img-fallback')"
+        >
+
+        <figcaption>
+          minji<3
+        </figcaption>
+
+      </figure>
+
+    </div>
+
+  </section>
+
+
+  <div class="triad triad--divider" aria-hidden="true">
+    <span class="dot dot--blue"></span>
+    <span class="dot dot--pink"></span>
+    <span class="dot dot--lav"></span>
+  </div>
+
+  <section
+    class="section section--message"
+    id="message"
+  >
+
+    <p class="eyebrow">
+      something i needed you to know
+    </p>
+
+    <h2 class="section__title">
+      a letter from azka
+    </h2>
+
+
+    <button
+      class="envelope"
+      id="envelopeBtn"
+      aria-expanded="false"
+      aria-label="open letter"
+    >
+
+      <span class="envelope__flap"></span>
+      <span class="envelope__body"></span>
+      <span class="envelope__heart">♡</span>
+
+      <span class="envelope__label">
+        tap to open
+      </span>
+
+    </button>
+
+    <div
+      class="letter"
+      id="letterText"
+    >
+
+<p>
+ minji,
+</p>
+
+<p>
+  minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji
+  minji minji minji minji minji minji minji minji minji minji minji minjiminji minji minji minji.
+</p>
+
+<p>
+  minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji
+  minji minji minji minji minji minji minji minji minji minji minji minjiminji minji minji minji.
+</p>
+
+<p>
+  minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji
+  minji minji minji minji minji minji minji minji minji minji minji minjiminji minji minji minji.
+</p>
+
+<p>
+  minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji
+  minji minji minji minji minji minji minji minji minji minji minji minjiminji minji minji minji.
+</p>
+
+<p>
+  minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji minji
+  minji minji minji minji minji minji minji minji minji minji minji minjiminji minji minji minji.
+</p>
+
+<p class="letter__sign">
+  yours,<br>
+  azka.
+</p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ============ FOOTER ============ -->
+
+  <footer class="footer">
+
+    <div class="triad" aria-hidden="true">
+      <span class="dot dot--blue"></span>
+      <span class="dot dot--pink"></span>
+      <span class="dot dot--lav"></span>
+    </div>
+
+    <p>
+      made with azka's love, always.
+    </p>
+
+  </footer>
+
+
+  <!-- ============ SCRIPT ============ -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
